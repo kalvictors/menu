@@ -1,0 +1,34 @@
+body{
+    background-color: antiquewhite;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+    
+}
+
+button{
+    background-color: blue;
+    border: none;
+    padding: 5px;
+    margin: 2px;
+}
+
+option{
+    border-left: 5px;
+    background-color: lightslategray;
+}
+
+.order{
+    background-color: red;
+}
+
+.around{
+    background-color: green;
+    margin: 10px;
+}
+
+.co{
+    color: blue;
+}
