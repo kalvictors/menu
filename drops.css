@@ -1,11 +1,14 @@
 body{
     background-color: antiquewhite;
+    margin: 0px;
+    padding: 0px;
 }
+
 
 a{
     text-decoration: none;
     color: whitesmoke;
-    
+    position: relative;
 }
 
 button{
@@ -13,11 +16,19 @@ button{
     border: none;
     padding: 5px;
     margin: 2px;
+    cursor: pointer;
+
 }
 
 option{
     border-left: 5px;
     background-color: lightslategray;
+    display: block;
+
+}
+
+option:hover{
+    color: palevioletred;
 }
 
 .order{
@@ -32,3 +43,190 @@ option{
 .co{
     color: blue;
 }
+
+
+
+.navbar {
+    color: blue;
+    margin: 0px;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    padding: 0px;
+}
+
+.navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+    margin: 100px;
+    
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+    margin: 100px;
+    padding: 0px;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;    
+    border: none;
+    outline: none;
+    color: white;
+    padding: 0px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+    padding: 0px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.cafes{   
+    display: none;
+    left: 50%;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+spot.hover .cafes{
+    display: block;
+}
+
+
+.spot{
+    position: absolute;
+    left: 50%;
+    margin: 100px;
+    overflow: hidden;
+}
+
+.forspot{
+    margin: 0px;
+    
+}
+
+.spot .forspot{
+    color: white;
+    font-size: 16px;
+    font-family: inherit;
+    padding: 0px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+}
+
+.cafes a {
+    float: none;
+    color: black;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.cafes a:hover{
+    background-color: #ddd;
+}
+
+.spot:hover .cafes{
+    display: block;
+}
+
+.navbar a:hover, .spot:hover .forspot {
+    background-color: red;
+    padding: 0px;
+}
+
+option{
+    cursor: pointer;
+    color: white;
+}
+
+form{
+    width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+
+.order{
+    margin: 0%;
+    overflow: hidden;
+    position: relative;
+    width: 11%;
+}
+
+.order .orderli{
+    border: none;
+    padding: 6px;
+    background-color: inherit;
+    font-size: 16px;
+    text-shadow: black;
+    outline: none;
+}
+
+
+.variety{
+    display: none;
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.order:hover .variety{
+    display: block;
+}
+
+.variety a:hover{
+    background-color: white;
+}
+
+.variety a{
+    float: none;
+    color: white;
+    padding: 0px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+a{
+    color: white;
+}
+
+
